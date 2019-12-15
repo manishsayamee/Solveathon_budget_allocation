@@ -1,0 +1,95 @@
+body{
+    margin:0px;
+    padding:0px;
+    background: url("../images/profile.jpg");
+    background-size:cover;
+    background-position: center;
+}
+
+.loginbox{
+    width:320px;
+    height:405px;
+    background:#23272b;
+    color:#fff;
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing:border-box;
+    border-radius: 0px 20px;
+    padding:60px 30px;
+
+}
+#show_alert{
+    height:45px;
+}
+.user{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    position:absolute;
+    top:-40px;
+    left:calc(50% - 50px);
+
+}
+#login_title{
+    margin:0;
+    padding:0 0 20px;
+    text-align:center;
+    font-size:25px;
+}
+.loginbox label{
+    margin:0;
+    padding:0;
+    font-weight:bold;
+}
+.loginbox input{
+    width:100%;
+    margin-bottom:20px;
+}
+.loginbox input[type="text"],input[type="password"]{
+    border:none;
+    border-bottom:1px solid #fff;
+    background:transparent;
+    outline:none;
+    color:#fff;
+    font-size:16px;
+}
+.loginbox input[type="submit"]{
+    border:none;
+    outline:none;
+    height:40px;
+    background-color:limegreen;
+    color:#fff;
+    border-radius:20px;
+    font-weigth:bold;
+}
+.loginbox input[type="submit"]:hover{
+    cursor:pointer;
+    background-color:green;
+}
+.loginbox a{
+    text-decoration:none;
+    font-size:14px;
+    line-height:20px;
+    color:#fff;
+    font-weight:bold;
+}
+.loginbox a:hover{
+    pointer:cursor;
+    color:#ffc107;
+}
+
+#footer{
+    top:83%;
+    position:absolute;
+    width:100%;
+    border:1px solid firebrick;
+    border-radius:2px;
+    padding:3px;
+    background-color:black;
+    text-align:center;
+    color:white;
+    font-weight:bold;
+
+}

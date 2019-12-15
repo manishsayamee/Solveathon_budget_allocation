@@ -1,0 +1,48 @@
+#overlay{
+    display:none;
+    opacity:0.8;
+    position:fixed;
+    top:0px;
+    left:0px;
+    background-color:#FFF;
+    width:100%;
+    z-index:5;
+}
+#message_box{
+    display:none;
+    width: 500px;
+    height:150px;
+    background-color:#EDEDED;
+    border-radius:3px;
+    z-index:5;
+    position:fixed;
+}
+#heading_title{
+    font-weight:bold;
+    font-size:20px;
+    color:white;
+    width:100%;
+    background-color: #DB4538;
+    padding:5px;
+    box-sizing: border-box;
+    text-align:center;
+    border-radius:3px;
+}
+#message_body{
+    font-size:18px;
+    margin-top:20px;
+    text-align:center;
+}
+#confirm_btn2{
+    margin-top:20px;
+}
+#confirm_btn2 input[type='button']{
+    padding: 3px 25px;
+    border-radius: 3px;
+    background: #DB4538;
+    border: 1px solid #DB4538;
+    color: #fff;
+    margin: 0 80px;
+    cursor:pointer;
+    box-sizing:border-box;
+}

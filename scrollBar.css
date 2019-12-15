@@ -1,0 +1,44 @@
+.sb-container,#scroll_container_for_purchase_bil{
+    position: relative;
+    overflow: hidden;
+    padding-right: 10px;
+}
+.sb-content {
+  height:100%;
+  overflow-y: scroll;
+  box-sizing:border-box;
+  overflow-x:hidden;
+}
+.sb-scrollbar-container {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    top: 5px;
+    width: 5px;
+}
+.sb-container-noscroll .sb-scrollbar-container {
+    right: -20px;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px grey;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #5dd;
+}
